@@ -1,0 +1,33 @@
+List<Integer> listofoddnum = new List<Integer>();
+Integer maxnum = 20;
+Integer totalnum = 0;
+
+For (Integer i = 1; i<= maxnum; i++){
+    if(Math.mod(i,2)== 1){
+       listofoddnum.add(i);
+        totalnum = totalnum + i;
+    }
+    
+}
+System.debug(listofoddnum);
+System.debug('Final Sum is '+totalnum);
+
+
+OR
+
+List<Integer> listofnum = new List<Integer>();
+Integer maxnum = 20;
+Integer totalnum = 0;
+
+For (Integer i = 1; i<= maxnum; i++){
+    listofnum.add(i);
+    if(Math.mod(i,2)== 0){
+        totalnum = totalnum + i;
+    }
+    else{
+       totalnum = totalnum + 0; 
+    }
+    
+}
+System.debug(listofnum);
+System.debug('Final Sum is '+totalnum);
