@@ -1,0 +1,24 @@
+public class MathCalculator {
+    public static Integer z;
+    public static Integer m;
+    
+    public void doMath (Integer x, Integer y){
+        add(x, y);
+        multiply(x, y);
+        printOutput();
+    }
+    
+    private static Integer add(integer x, integer y){
+         z = x + y;
+            return z;
+        }
+    
+    private static integer multiply(integer x, integer y){
+             m = x * y;
+            return m;
+    }
+    private static void printOutput(){
+        System.debug('The addition value is '+z);
+        System.debug('The multiplication value is ' +m);
+    }
+}
