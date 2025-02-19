@@ -1,0 +1,13 @@
+List<Account> acctlist = new List<Account>();
+
+for(Integer i = 1; i <= 5; i++){
+    Account acc = new Account();
+    acc.Name = 'Demo Account '+i;
+    acctlist.add(acc);
+}
+insert acctlist;
+System.debug(acctlist);
+System.debug('No of accounts created: '+acctlist.size());
+//acct.Name = 'Demo Account 2';
+//insert acct;
+
